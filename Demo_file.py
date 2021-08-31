@@ -8,11 +8,9 @@ def main():
     name = input("Name: ")
     age = int(input("Age:"))
     ages_dict[name] = age
-    # TODO: Display a line (underscores)
     for key, value in ages_dict.items():
         print("{:8} - {:8}".format(key, value))
         # TODO: Add dynamic spacing to account for over-sized names
-    # TODO: Display a line (underscores)
 
 
 main()
